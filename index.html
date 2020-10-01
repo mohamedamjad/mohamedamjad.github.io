@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+      .hero {
+        text-align: center;
+        height: 100vh;
+        padding: 10%;
+      }
+      .name {
+        font-family: "VT323", monospace;
+        font-size: 120px;
+      }
+      .avatar {
+        vertical-align: middle;
+        height: 240px;
+        width: 240px;
+        border-radius: 50%;
+        border: turquoise solid 5px;
+      }
+      #hashtags {
+        padding-top: 30px;
+      }
+      .hashtag {
+        display: inline-block;
+        font-family: "VT323", monospace;
+        font-size: 32px;
+        color: turquoise;
+        padding: 10px;
+        border: turquoise solid;
+        margin: 3px;
+      }
+      .card{
+        display: inline-block;
+        font-family: "VT323", monospace;
+        font-size: 32px;
+        color: turquoise;
+        padding: 10px;
+        border: turquoise solid;
+        margin: 3px;
+      }
+      .card-header{
+        border-bottom: teal solid 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <div id="name">
+        <p class="animate__animated animate__tada name">Amjad Lasri</p>
+      </div>
+      <div id="image">
+        <img src="0.jpeg" alt="Avatar" class="avatar" />
+      </div>
+      <div id="hashtags">
+        <p class="hashtag">#CTO</p>
+        <p class="hashtag">#Fullstack</p>
+        <p class="hashtag">#DataExpert</p>
+        <div class="card">
+          <div class="card-header">
+            <h3>Design</h3>
+          </div>
+          
+          <br>
+          Je dessine bien
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
